@@ -5,8 +5,8 @@ function theBeatlesPlay(musicianArr,instruArr){
   for (let i=0;i<musicianArr.length;i++){
     let strToPush = musicianArr[i] + " plays " + instruArr[i];
     newArr.push(strToPush);
-    return newArr;
   }
+  return newArr;
 }
 
 function johnLennonFacts(factsArr){
